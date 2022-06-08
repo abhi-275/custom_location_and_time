@@ -1,0 +1,7 @@
+custom_location_and_time.settings:
+  path: '/admin/config/system/custom-location-and-time-settings'
+  defaults:
+    _title: 'Site location and Current Time Block Settings'
+    _form: 'Drupal\custom_location_and_time\Form\CustomLocationTimeSettingsForm'
+  requirements:
+    _permission: 'administer site configuration'

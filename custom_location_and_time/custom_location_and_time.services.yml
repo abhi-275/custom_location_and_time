@@ -1,0 +1,4 @@
+services:
+  custom_location_and_time.current_time:
+    class: Drupal\custom_location_and_time\CustomCurrentTimeService
+    arguments: ['@datetime.time', '@config.factory']

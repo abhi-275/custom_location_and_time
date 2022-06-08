@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Contains custom_location_and_time.module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function custom_location_and_time_theme() {
+  return [
+    'custom_location_and_time' => [
+      'variables' => [
+        'country' => NULL,
+        'city' => NULL,
+        'time' => NULL,
+      ],
+    ],
+  ];
+}

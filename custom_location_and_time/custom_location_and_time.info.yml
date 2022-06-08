@@ -1,0 +1,7 @@
+name: Site location and Current Time Block
+description: Displays site location and the current time for the location in block.
+package: Custom Module
+type: module
+core_version_requirement: ^8 || ^9
+dependencies:
+  - block
